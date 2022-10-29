@@ -24,8 +24,6 @@ class CommentSerializer(serializers.ModelSerializer):
 
 
 class GroupSerializer(serializers.ModelSerializer):
-    slug = serializers.SlugField(required=True)
-
     class Meta:
         fields = ("id", "title", "slug", "description")
         model = Group
