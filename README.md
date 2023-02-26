@@ -36,16 +36,16 @@ python manage.py runserver
 `api/v1/posts/`
 
 - Получение поста по id
-`api/v1/posts/1/
+`api/v1/posts/1/`
 
 - Получение коментария к посту
-`api/v1/posts/1/comments/
+`api/v1/posts/1/comments/`
 
 - Получение списка групп
-`api/v1/groups/
+`api/v1/groups/`
 
 - Создание поста аунтентифицированным пользователем.
-`api/v1/posts
+`api/v1/posts`
 
 ## Автор
 Lisinka https://github.com/AbrLis
